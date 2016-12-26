@@ -4,9 +4,9 @@ A swift implementation of [East Asian Width](http://www.unicode.org/reports/tr11
 
 ## Usage
 
-```swift
+``` swift
 import EastAsianWidth
 print("\u{6771}".eastAsianLength())	//"東" is Wide, so it will print 2
 ```
 
-Take a look at EastAsianWidthTests.swift(/Tests/EastAsianWidthTests/EastAsianWidthTests.swift) for the other cases.
+Take a look at [EastAsianWidthTests.swift](Tests/EastAsianWidthTests/EastAsianWidthTests.swift) for the other cases.
